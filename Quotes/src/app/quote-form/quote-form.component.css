@@ -1,0 +1,9 @@
+.panel{ 
+    background-color: black;
+    color: white;
+   font-size: 25px;
+    border-radius: 25px;
+    border: 2px;
+    padding: 20px;
+  
+  }
