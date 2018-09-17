@@ -9,8 +9,8 @@ import { Quote } from '../quote';
 export class QuoteComponent implements OnInit {
 
   quotes = [
-    new Quote(1,'Either way, I think we can all do with a bit more spark to help us perform miracles and live in joy.',"",new Date(2018,3,14),0,0),
-    new Quote(2,'Dear Math, please grow up and solve your own problems, I am tired of solving them for you.',"",new Date(2018,6,9),0,0),
+    new Quote(1,'Either way, I think we can all do with a bit more spark to help us perform miracles and live in joy.',"",new Date(2018,3,14),0,0,"Peter"),
+    new Quote(2,'Dear Math, please grow up and solve your own problems, I am tired of solving them for you.',"",new Date(2018,6,9),0,0,"Peter"),
   ]
   quoteVote(isVote,index){
     if(isVote){
