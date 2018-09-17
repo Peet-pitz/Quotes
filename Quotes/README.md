@@ -20,7 +20,7 @@ The program can delete a quote
     Output Example: quote is deleted 
 
 ## Link to live site
-  https://peet-pitz.github.io/Pig-Dice-Game/
+  
 
 ## Technologies Used
 Angular JS
