@@ -2,10 +2,10 @@
   {{quote.description}}
 </p>
 <p>date {{quote.completeDate|dateCount}} days</p>
-<button class="btn btn-danger" (click)  = 'quoteDelete(true)'>Delete</button>
+<button class="btn-success" (click) = 'quoteVote(true)'>Vote:</button><p>{{quote.vote}}</p>
+<button class="btn-success" (click) = 'quoteVote(false)'>Disvote</button><p>{{quote.disvote}}</p>
 <br>
 <div class="vote buttons">
   <br><br>
-<button class="btn-success" (click) = 'quoteVote(true)'>Vote:</button><p>{{quote.vote}}</p>
-<button class="btn-success" (click) = 'quoteVote(false)'>Disvote</button><p>{{quote.disvote}}</p>
+  <button class="btn btn-danger" (click)  = 'quoteDelete(true)'>Delete</button>
 </div>
