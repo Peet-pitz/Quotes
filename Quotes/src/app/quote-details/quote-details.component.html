@@ -1,0 +1,8 @@
+<p>
+  {{quote.description}}
+</p>
+<p>date {{quote.completeDate|dateCount}} days</p>
+<button (click) = 'quoteDelete(true)'>Delete</button>
+<br>
+<button (click) = 'quoteVote(true)'>Vote:</button><p>{{quote.vote}}</p>
+<button (click) = 'quoteVote(false)'>Disvote</button><p>{{quote.disvote}}</p>
